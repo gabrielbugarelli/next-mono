@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*",
+      "projects/*",
+      "setup/*"
+    ]
+  },
+  "scripts": {
+    "web": "yarn workspace @next-mono/web",
+    "dev:web": "yarn web dev",
+    "build:web": "yarn web build",
+    "start:web": "yarn web start"
+  }
+}
